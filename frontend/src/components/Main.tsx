@@ -190,11 +190,9 @@ function Main({ width }: WithWidth): React.ReactElement {
           <div className={classes.appBarSpacer} />
           <Container maxWidth="sm" className={classes.container}>
             <Routes>
-              <Route path="/">
-                <PrintStatus />
+              <Route path="/" element={<PrintStatus/>}>
               </Route>
-              <Route path="/files">
-                <FileList />
+              <Route path="/files" element={<FileList/>}>
               </Route>
             </Routes>
           </Container>
