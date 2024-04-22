@@ -1,7 +1,7 @@
 import logging
 import multiprocessing
 import os
-import flask
+import Flask
 from typing import Dict
 
 from flask import render_template
