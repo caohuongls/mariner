@@ -3,7 +3,7 @@ import multiprocessing
 import os
 from typing import Dict
 
-from flask import render_template
+from flask import Flask, render_template
 from waitress import serve
 
 from mariner import config
